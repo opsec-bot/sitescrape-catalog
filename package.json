@@ -1,0 +1,21 @@
+{
+  "name": "sitescrape-catalog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Community endpoints for sitescrape.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "sitescrape": "sitescrape",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "sitescrape": "file:../sitescrape"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
