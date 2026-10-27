@@ -9,7 +9,7 @@ Endpoints for [sitescrape](https://github.com/opsec-bot/sitescrape), one folder 
 ## Use
 
 ```
-git clone <this repo> && cd sitescrape-catalog
+git clone https://github.com/opsec-bot/sitescrape-catalog && cd sitescrape-catalog
 npm install
 npx sitescrape list
 npx sitescrape call resy.com/search '{"query":"pizza","city":"new-york-ny"}'
