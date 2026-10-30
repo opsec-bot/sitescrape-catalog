@@ -5,6 +5,7 @@ Endpoints for [sitescrape](https://github.com/opsec-bot/sitescrape), one folder 
 | Endpoint | What it returns |
 |---|---|
 | `resy.com/search` | Restaurants on Resy by text and city: cuisine, neighborhood, price, rating, phone, location |
+| `openstreetmap.org/traffic-controls` | Traffic lights, stop signs and yield signs from OpenStreetMap inside map boxes, via the fastest public Overpass mirror |
 
 ## Use
 
